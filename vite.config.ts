@@ -13,4 +13,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    allowedHosts: ['sb-47bg7uhcrcus.vercel.run'],
+  },
 });
